@@ -1,0 +1,106 @@
+.title {
+  margin-top: 10px;
+  font-family: "Great Vibes", cursive;
+  margin-top: 90px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 340px;
+  top: 80px;
+}
+
+.mountain-div {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 380px;
+  top: 420px;
+}
+
+.mountain-image {
+  position: relative;
+  top: 20px;
+  width: 500px;
+
+}
+
+.profile {
+  background-color: #effcef;
+  padding: 30px;
+}
+
+.skills {
+  background-color: #ccedd2;
+  padding: 30px;
+}
+
+.skill-title {
+  background-color: #ccedd2;
+  margin-bottom: 0;
+  color: #55AFAF;
+}
+
+.computer-image {
+  width: 25%;
+  float: left;
+  margin-right: 20px
+}
+
+.chilli-image {
+  width: 25%;
+  float: right;
+  margin-left: 20px
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  line-height: 2rem;
+  text-align: left;
+}
+
+.contact-me {
+  background-color: #94d3ac;
+  padding: 30px;
+}
+
+.contact-title {
+  color: #458F8F
+}
+
+.contact-button {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 20px;
+  width: 120px;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 10px;
+  padding-top: 14px;
+  background-color: #655C56;
+  -webkit-box-shadow: 1px 1px 5px 0 #000000;
+  -moz-box-shadow: 1px 1px 5px 0 #000000;
+  box-shadow: 1px 1px 5px 0 #000000;
+  -text-shadow: 1px 1px 3px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-button:hover {
+  background: #91847B;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
