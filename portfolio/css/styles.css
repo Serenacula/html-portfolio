@@ -2,12 +2,15 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   text-align: center;
+  line-height: 1.5rem;
 
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 h1, h2, h3 {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
   font-weight: 400;
 }
@@ -16,7 +19,8 @@ h1, h2, h3 {
   padding-top: 40px;
 }
 .title {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1rem;
+
   margin: 0;
   text-transform: uppercase;
   font-size: 2.5rem;
@@ -26,12 +30,14 @@ h1, h2, h3 {
 .title:hover {
   color: gray;
 }
-.navbar {
+.navigation-bar {
   margin-top: 1rem;
+  margin: auto;
 }
 .button {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1rem;
   font-size: 0.9rem;
+  line-height: 1.5rem;
   margin: 0;
   margin-bottom: 2rem;
   margin-right: 15px;
@@ -43,8 +49,10 @@ h1, h2, h3 {
   text-decoration: underline;
   color: black;
 }
+.button-small {
+  font-size: 0.8rem;
+}
 .active, .active:hover {
-  /* text-decoration: underline; */
   color: gray;
 }
 

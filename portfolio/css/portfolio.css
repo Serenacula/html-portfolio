@@ -1,8 +1,10 @@
-.middle-section {
+
+
+.middle-container {
  margin: auto;
 }
 .subtitle {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
   font-weight: 400;
 
@@ -13,7 +15,7 @@
   align-items: center;
   justify-content: center;
 }
-.column {
+.portfolio-column {
     width: 30vw;
     flex-direction: column;
     padding: 15px;
@@ -26,13 +28,22 @@
 .link:hover {
   color: darkgray;
 }
-.image {
+.portfolio-image {
   width: 30vw;
   height: 400px;
   object-fit: cover;
-}
 
-.text {
+}
+.slide-left {
+  object-position: right;
+}
+.slide-centered {
+  object-position: center;
+}
+.slide-right {
+  object-position: left;
+}
+.portfolio-text {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   font-weight: 400;
