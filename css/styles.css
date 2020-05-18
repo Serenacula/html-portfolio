@@ -67,6 +67,10 @@ img {
   padding: 20px;
 }
 
+.bottom-text {
+  margin: 1rem 0;
+}
+
 .footer-link {
   color: darkorange;
   text-shadow: 1px, 1px, 8px, black;
