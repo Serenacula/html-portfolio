@@ -1,0 +1,27 @@
+.middle-container {
+  margin-top: 3rem;
+  position: relative;
+  display: flex;
+  padding: 0;
+  /* margin-bottom: 30px; */
+}
+.text-section {
+  display: inline-block;
+  width: 50vw;
+  flex-direction: column;
+  padding: 0 5%;
+
+}
+.text {
+  text-align: left;
+  line-height: 1.6rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.image {
+  width: 50vw;
+  height: 720px;
+  object-fit: cover;
+  float: right;
+  flex-direction: column;
+}

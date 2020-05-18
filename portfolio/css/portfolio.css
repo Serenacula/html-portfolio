@@ -1,0 +1,39 @@
+.middle-section {
+ margin: auto;
+}
+.subtitle {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 400;
+
+  padding-top: 2rem;
+}
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.column {
+    width: 30vw;
+    flex-direction: column;
+    padding: 15px;
+
+}
+.link {
+  color: black;
+  text-decoration: none;
+}
+.link:hover {
+  color: darkgray;
+}
+.image {
+  width: 30vw;
+  height: 400px;
+  object-fit: cover;
+}
+
+.text {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 400;
+}

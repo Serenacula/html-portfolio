@@ -10,13 +10,17 @@
   margin-top: 50px;
 }
 
-.middle-container {
+.middle-container-1 {
   padding: 30px;
+  background-color: #ccedd2;
 }
 
-.simon {
+.project {
   width: 60%;
   margin: auto;
+}
+.title {
+  margin: 30px;
 }
 
 .simon-button-div {
@@ -47,5 +51,19 @@
   border: 5px solid white;
 }
 
-.simon-text {
+.middle-container-2 {
+  background-color: #94d3ac;
+  margin: 0;
+  padding-top: 10px;
+}
+.portfolio-image {
+  border: 5px solid black;
+  border-radius: 30px;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+.portfolio-image:hover {
+  border-color: white;
 }

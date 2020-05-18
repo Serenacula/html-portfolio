@@ -1,0 +1,83 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3 {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.top-container {
+  position: relative;
+  padding-top: 40px;
+}
+.title {
+  letter-spacing: 0.1em;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: black;
+  text-decoration: none;
+}
+.title:hover {
+  color: gray;
+}
+.navbar {
+  margin-top: 1rem;
+}
+.button {
+  letter-spacing: 0.1em;
+  font-size: 0.9rem;
+  margin: 0;
+  margin-bottom: 2rem;
+  margin-right: 15px;
+  text-decoration: none;
+
+  color: black;
+}
+.button:hover {
+  text-decoration: underline;
+  color: black;
+}
+.active, .active:hover {
+  /* text-decoration: underline; */
+  color: gray;
+}
+
+/* Animations */
+
+.fade-in {
+animation: fadeIn ease 2s;
+-webkit-animation: fadeIn ease 2s;
+-moz-animation: fadeIn ease 2s;
+-o-animation: fadeIn ease 2s;
+-ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
