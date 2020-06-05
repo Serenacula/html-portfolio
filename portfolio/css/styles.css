@@ -55,6 +55,13 @@ h1, h2, h3 {
 .active, .active:hover {
   color: gray;
 }
+.subtitle {
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+
+  padding-top: 2rem;
+}
 
 /* Animations */
 

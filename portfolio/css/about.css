@@ -14,7 +14,11 @@ body {
   width: 50vw;
   flex-direction: column;
   padding: 0 5%;
+  text-align: left;
 
+}
+.subtitle {
+  text-align: center;
 }
 .text {
   text-align: left;
@@ -27,4 +31,16 @@ body {
   height: 720px;
   object-fit: cover;
   text-align: right;
+  margin-top: 2rem;
+}
+.link-div {
+  padding-top: 1rem;
+}
+.link {
+  /* letter-spacing: 0.05rem; */
+  font-size: 1.1rem;
+  color: black;
+}
+.link:hover {
+  color: gray;
 }

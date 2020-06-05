@@ -3,13 +3,7 @@
 .middle-container {
  margin: auto;
 }
-.subtitle {
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
-  font-weight: 400;
 
-  padding-top: 2rem;
-}
 .gallery {
   display: flex;
   align-items: center;
