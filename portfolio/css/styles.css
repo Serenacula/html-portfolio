@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 h1, h2, h3 {
   letter-spacing: 0.1rem;
@@ -18,7 +18,7 @@ h1, h2, h3 {
   position: relative;
   padding-top: 40px;
 }
-.title {
+.nav-title {
   letter-spacing: 0.1rem;
 
   margin: 0;
@@ -27,14 +27,14 @@ h1, h2, h3 {
   color: black;
   text-decoration: none;
 }
-.title:hover {
+.nav-title:hover {
   color: gray;
 }
 .navigation-bar {
   margin-top: 1rem;
   margin: auto;
 }
-.button {
+.nav-button {
   letter-spacing: 0.1rem;
   font-size: 0.9rem;
   line-height: 1.5rem;
@@ -45,11 +45,11 @@ h1, h2, h3 {
 
   color: black;
 }
-.button:hover {
+.nav-button:hover {
   text-decoration: underline;
   color: black;
 }
-.button-small {
+.nav-button-small {
   font-size: 0.8rem;
 }
 .active, .active:hover {

@@ -1,3 +1,7 @@
+body {
+  overflow-y: scroll;
+}
+
 .middle-container {
   margin-top: 3rem;
   position: relative;
